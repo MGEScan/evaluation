@@ -3,4 +3,5 @@ We have two programs in MGEScan: scanning on LTR and nonLTR. Two programs run in
 
 * Input
   fasta genome single sequence file
-* *utput
+* Output
+  custom format output.
