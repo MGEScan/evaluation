@@ -1,6 +1,7 @@
 curl -L https://raw.githubusercontent.com/MGEScan/mgescan/master/one-liner/ubuntu | bash
 source ~/.mgescanrc
 
+cd $HOME
 mkdir ~/accuracy
 cd accuracy
 mkdir dm3
@@ -20,7 +21,7 @@ cd ~/accuracy
 mkdir a_thaliana
 cd a_thaliana
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001735.3_TAIR10/GCF_000001735.3_TAIR10_genomic.fna.gz
-gzip -d GCF_000001735.3_TAIR10/GCF_000001735.3_TAIR10_genomic.fna.gz
+gzip -d GCF_000001735.3_TAIR10_genomic.fna.gz
 
 cd $MGESCAN_SRC
 python setup.py install
