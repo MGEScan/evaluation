@@ -31,3 +31,9 @@ source ~/.mgescanrc
 source $MGESCAN_VENV/bin/activate
 cd $MGESCAN_SRC
 python setup.py install
+
+cd $HOME
+wget http://downloads.sourceforge.net/project/mgescan/MGEScan1.3.1.tar.gz?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Fmgescan%2F&ts=1454890478&use_mirror=master
+mv MGEScan1.3.1* MGEScan.1.3.1.tar.gz
+tar xvzf MGEScan.1.3.1.tar.gz
+
