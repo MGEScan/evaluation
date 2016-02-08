@@ -28,5 +28,6 @@ sudo apt-get install openmpi-bin -y
 sudo apt-get install libopenmpi-dev -y
 
 source ~/.mgescanrc
+source $MGESCAN_VENV/bin/activate
 cd $MGESCAN_SRC
 python setup.py install
