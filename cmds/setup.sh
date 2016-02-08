@@ -23,10 +23,9 @@ cd a_thaliana
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001735.3_TAIR10/GCF_000001735.3_TAIR10_genomic.fna.gz
 gzip -d GCF_000001735.3_TAIR10_genomic.fna.gz
 
-sudo apt-get install hmmer2
-sudo apt-get install openmpi-bin
-sudo apt-get install libopenmpi-dev
-
+sudo apt-get install hmmer2 -y
+sudo apt-get install openmpi-bin -y
+sudo apt-get install libopenmpi-dev -y
 
 cd $MGESCAN_SRC
 python setup.py install
