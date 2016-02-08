@@ -27,5 +27,6 @@ sudo apt-get install hmmer2 -y
 sudo apt-get install openmpi-bin -y
 sudo apt-get install libopenmpi-dev -y
 
+source ~/.mgescanrc
 cd $MGESCAN_SRC
 python setup.py install
