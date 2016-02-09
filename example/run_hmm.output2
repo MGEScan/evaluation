@@ -1,0 +1,769 @@
+hmmsearch - search a sequence database with a profile HMM
+HMMER 2.3.2 (Oct 2003)
+Copyright (C) 1992-2003 HHMI/Washington University School of Medicine
+Freely distributed under the GNU General Public License (GPL)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+HMM file:                   /home/ubuntu/mgescan3/mgescan/mgescan/nonltr/pHMM/ebi_ds36752_seq.hmm [ebi_ds36752_seq]
+Sequence database:          /home/ubuntu/mgescan3/mgescan/mgescan/nonltr/testgain/f/NC_003070.9.fa.pep
+per-sequence score cutoff:  [none]
+per-domain score cutoff:    [none]
+per-sequence Eval cutoff:   <= 1e-05     
+per-domain Eval cutoff:     [none]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query HMM:   ebi_ds36752_seq
+Accession:   [none]
+Description: [none]
+  [HMM has been calibrated; E-values are empirical estimates]
+
+Scores for complete sequences (score includes all domains):
+Sequence         Description                            Score    E-value  N 
+--------         -----------                            -----    ------- ---
+NC_003070.9.fa_1                                       1193.0          0   8
+NC_003070.9.fa_3                                        969.0   5.9e-292   5
+NC_003070.9.fa_2                                        514.5     4e-155   3
+
+Parsed for domains:
+Sequence         Domain  seq-f seq-t    hmm-f hmm-t      score  E-value
+--------         ------- ----- -----    ----- -----      -----  -------
+NC_003070.9.fa_3   3/5   3453451 3453883 ..     1   492 []   340.9 7.2e-103
+NC_003070.9.fa_3   2/5   2910152 2910584 ..     1   492 []   282.8  2.2e-85
+NC_003070.9.fa_2   2/3   4337115 4337546 ..     1   492 []   256.5  1.9e-77
+NC_003070.9.fa_3   4/5   5885830 5886262 ..     1   492 []   253.2  1.8e-76
+NC_003070.9.fa_1   7/8   5438002 5438433 ..     1   492 []   246.0  2.7e-74
+NC_003070.9.fa_1   8/8   5440962 5441383 ..     1   492 []   245.8    3e-74
+NC_003070.9.fa_2   1/3   3510678 3511108 ..     1   492 []   196.6    2e-59
+NC_003070.9.fa_1   1/8   1110297 1110725 ..     1   492 []   192.3    4e-58
+NC_003070.9.fa_1   6/8   5209227 5209658 ..     1   492 []   157.5  1.1e-47
+NC_003070.9.fa_1   5/8   4563980 4564406 ..     1   492 []   135.7  4.4e-41
+NC_003070.9.fa_1   2/8   2830148 2830566 ..     1   492 []   120.5  1.6e-36
+NC_003070.9.fa_3   1/5   2657176 2657577 ..     1   492 []    81.5    9e-25
+NC_003070.9.fa_1   3/8   3425484 3425907 ..     1   492 []    79.1  4.7e-24
+NC_003070.9.fa_2   3/3   4698218 4698604 ..     1   492 []    61.4    1e-18
+NC_003070.9.fa_1   4/8   4539936 4540341 ..     1   492 []    16.2  1.6e-12
+NC_003070.9.fa_3   5/5   6398341 6398704 ..     1   492 []    10.6  2.7e-12
+
+Alignments of top-scoring domains:
+NC_003070.9.fa_3: domain 3 of 5, from 3453451 to 3453883: score 340.9, E = 7.2e-103
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      +v+++Evr+ai+ ++++ APG D++t+++++k ++ ++p   ++  +
+  NC_003070. 3453451    SVSKNEVRDAIFGIRSSSAPGADWFTGFFFQKYWSIIGP--QVTMEI 3453495
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    ++++ G+fPk+W    ++++pKk+k p++ + + RPISL+sv +Ki +k
+  NC_003070. 3453496 XNFFSQGTFPKEWNFTQLCLLPKKKK-PDKMT-DLRPISLCSVMYKIISK 3453543
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   i+++Rl+p+l++   ++s++Q +F+p R + dn+l + +v++ ++++k  
+  NC_003070. 3453544 IMVKRLQPFLPD---LVSPNQSAFVPDRLISDNILIAHEVVHGLRTHKTV 3453590
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                   +   k+  a+  D++kAFD+V++n++   L++lGf+++ v w++ + ++ 
+  NC_003070. 3453591 S---KEFIAIKSDMSKAFDRVEWNYVKALLEALGFHQKXVAWFMFMITSV 3453637
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                   +f+v +n+ +  +++ +trG +QG++LSP+LF+l+ + l +  +    ++
+  NC_003070. 3453638 SFTVLIND-KAHGKIIPTRGLRQGDPLSPFLFILCSEGLTHLMN----RA 3453682
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   e+++ i+Gi+++++g++++++++ DD + +++++     ++++    +i+
+  NC_003070. 3453683 ESQSlISGIRFsPNGPAIHHLLFTDDSLFMCKAD-----KKEVAVIKNIF 3453727
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                   + ++++ g  iN +K+++   ++            +   ++ +   +l  
+  NC_003070. 3453728 KVYGDATGQMINFEKSSITFGSK------------VEEGCKEWIKAALG- 3453764
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                      t+e  +   yLG  l +++++s+           + + ++rl++++ 
+  NC_003070. 3453765 --ITNEG-GAGTYLG--LPECFSGSKVQLLD----YIRDRLKSRLSGWFA 3453805
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                   + ++++++ +l+kav+ ++  Y++++++ ++t      ++ l ++   ++
+  NC_003070. 3453806 RILSLGGKQILLKAVAMAMPVYAISCFKLTKT-----TCENLSSAMADFW 3453850
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                   ++           a+++ + +    ++++++ +l  ++ggl+++d +   
+  NC_003070. 3453851 WN-----------ALEHKRKT---HWVSWEKMCLSKENGGLGFRDIE    3453883
+
+NC_003070.9.fa_3: domain 2 of 5, from 2910152 to 2910584: score 282.8, E = 2.2e-85
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                       v+  E+++a++s+kp  APGpDG ++ ++++ +++++  + +++ +
+  NC_003070. 2910152    EVSAQEIKEAVFSIKPASAPGPDGMSALFFQHYWSTVG--NQVTSEV 2910196
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    ++++ G  P++W    +++IpK    p++   + RPISL+svl+Ki +k
+  NC_003070. 2910197 KKFFADGIMPAEWNYTHLCLIPKTQH-PTEMV-DLRPISLCSVLYKIISK 2910244
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   i+a+Rl+p l+e   i+sd+Q +F+  R +tdn+l + ++++++  + + 
+  NC_003070. 2910245 IMAKRLQPWLPE---IVSDTQSAFVSERLITDNILVAHELVHSLKVHPRI 2910291
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                   +    + +av  D++kA+D+V++++L + L  lGf+ ++v+wi+ + s+ 
+  NC_003070. 2910292 SS---EFMAVKSDMSKAYDRVEWSYLRSLLLSLGFHLKWVNWIMVCVSSV 2910338
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                   t++v +n+ +  + + + rG +QG++LSP+LF l+++ l + l+    ++
+  NC_003070. 2910339 TYSVLIND-CPFGLIILQRGLRQGDPLSPFLFVLCTEGLTHLLN----KA 2910383
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   + +g + Giq++++g+ v+++++ADD + l+++      +++   l  i+
+  NC_003070. 2910384 QWEGaLEGIQFsENGPMVHHLLFADDSLFLCKAS-----REQSLVLQKIL 2910428
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                   + ++ + g  iN +K+++    +            ++ + +    t l  
+  NC_003070. 2910429 KVYGNATGQTINLNKSSITFGEK------------VDEQLKGTIRTCLG- 2910465
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                      + e  +   yLG  l +++++s+          l+ + + +l +++ 
+  NC_003070. 2910466 --IFTEG-GAGTYLG--LPECFSGSKVDMLH----YLKDRLKEKLDVWFT 2910506
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                   ++++ +++  l+k+v++++  ++ ++++ p+t      ++ l+++   ++
+  NC_003070. 2910507 RCLSQGGKEVLLKSVALAMPVFAMSCFKLPIT-----TCENLESAMASFW 2910551
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                   +  +        +  ++        + ++++l+l+   ggl+++d +   
+  NC_003070. 2910552 WDSCD-------HSRKI-------HWQSWERLCLPKDSGGLGFRDIQ    2910584
+
+NC_003070.9.fa_2: domain 2 of 3, from 4337115 to 4337546: score 256.5, E = 1.9e-77
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      pvteeE+++a+ s+ + K+PGpDG+ + ++k  + +l     +   +
+  NC_003070. 4337115    PVTEEELSHALCSMNRDKSPGPDGLGAGFYKDHWAVLS--KGVFQYV 4337159
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                   ++++++G++ +   +  i++IpK  + p +   +YRPISL++v +K+ +k
+  NC_003070. 4337160 QNFFNTGTLDPKLNHTHICLIPKVEN-PLEVK-DYRPISLCNVAYKLISK 4337207
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   ila+Rl+p l     i+s++Q++F+pgR ++dn+l + ++i+++ ++   
+  NC_003070. 4337208 ILADRLQPWLQ-F--IISENQTAFIPGRMIIDNVLIAHELIHSLQTRNL- 4337253
+
+                   ndtnkytlavf.LDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsg
+                       k+ + +f+LD++kAFD+V++++L   +kklGf + ++ wi+ + + 
+  NC_003070. 4337254 ----KQPYMAFkLDISKAFDKVEWSFLEAIMKKLGFAERWCAWIMECITT 4337299
+
+                   RtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggq
+                    t++v vng s  +++ + rG++QG+++SP+L++ly + l+  ++     
+  NC_003070. 4337300 VTYSVLVNG-SPIGNILPQRGIRQGDPISPYLYLLYSERLSALIR----H 4337344
+
+                   eegkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdi
+                   + ++g++ G + + +g+ ++++++ADD +l+++++      ++ ++lL++
+  NC_003070. 4337345 NIHQGkLHGFKAsRNGPPISHLLFADDSLLFCKAT-----VEECTALLQV 4337389
+
+                   veewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelp
+                   + +   ++g  +N +K+ +v+f+++l+         +++++++    + +
+  NC_003070. 4337390 LNQXHAASGQQVNFQKS-AVTFGKGLNC--------QQKHDLTNIMGVTK 4337430
+
+                   dqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsr
+                           ++  +yLG  l +   f+ + ++ +  + +  +   +l+ + 
+  NC_003070. 4337431 -------ISGFGRYLG--LPE---FVGRSKYNAFSYLHH-RVSQKLQSWY 4337467
+
+                   wglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrka
+                   ++ ++p+++  l kav+ +   Y+ +++   ++++   l+k++ +++rk+
+  NC_003070. 4337468 SHFLSPAGKEVLIKAVATALPSYCMSCF--MLCIK---LIKEITSVIRKF 4337512
+
+                   lrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-
+                   +++ +        +  ++        ++++ ++    k ggl+++d++  
+  NC_003070. 4337513 WWASTQ-------HHNKIS-------WVAWSKINDTKKMGGLGIRDLE   4337546
+
+                   *
+                    
+  NC_003070.     -   -    
+
+NC_003070.9.fa_3: domain 4 of 5, from 5885830 to 5886262: score 253.2, E = 1.8e-76
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      + te Evraa++ ++p KAPGpDG t+ +++k +  ++  + L++l+
+  NC_003070. 5885830    DATECEVRAALFMIHPEKAPGPDGMTALFFQKSWAIIK--SDLLSLV 5885874
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                   n++l++G+f k   +  i++IpK  + p++ +   RPISL++v +K+ +k
+  NC_003070. 5885875 NSFLQEGVFDKRLNTTNICLIPKTER-PTRMT-ELRPISLCNVGYKVISK 5885922
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   il  Rl+++l+    ++s++Q +F+ gR + dn+l +++  + +++   +
+  NC_003070. 5885923 ILCQRLKTVLPN---LISETQSAFVDGRLISDNILIAQEMFHGLRTN--S 5885967
+
+                   n..dtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksfls
+                   + +d     +a+  D++kA+D V++n++   L+k+Gf ++++ wi+ + +
+  NC_003070. 5885968 SckD---KFMAIKTDMSKAYDQVEWNFIEALLRKMGFCEKWISWIMWCIT 5886014
+
+                   gRtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdgg
+                     +++v +ng +  + + ++rG +QG++LSP+LF+l+++ l+ +++    
+  NC_003070. 5886015 TVQYKVLING-QPKGLIIPERGLRQGDPLSPYLFILCTEVLIANIR---- 5886059
+
+                   qeegkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLd
+                   ++e+++ i+Gi+v  + ++v+++++ADD + +++++     +++    L+
+  NC_003070. 5886060 KAERQNlITGIKVaTPSPAVSHLLFADDSLFFCKAN-----KEQCGIILE 5886104
+
+                   iveewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtel
+                   i++++ + +g  iN sK++ + f+      +  ++ k++  ++ lg ++l
+  NC_003070. 5886105 ILKQYESVSGQQINFSKSS-IQFGH-----KVEDSIKADI-KLILGIHNL 5886147
+
+                   pdqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirs
+                         +       yLG  l + l +s+   +       + +  +r+ ++
+  NC_003070. 5886148 ----GGMGS-----YLG--LPESLGGSKTKVFS----FVRDRLQSRINGW 5886182
+
+                   rwglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrk
+                   + + ++++++  + k+v++   +Y  +++  p++     + ++l +++ k
+  NC_003070. 5886183 SAKFLSKGGKEVMIKSVAATLPRYVMSCFRLPKA-----ITSKLTSAVAK 5886227
+
+                   alrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<
+                   +++   g          r +       ++++ +l+    +ggl+++ +  
+  NC_003070. 5886228 FWWSSNG--------DSRGM------HWMAWDKLCSSKSDGGLGFRNVD  5886262
+
+                   -*
+                     
+  NC_003070.     -    -    
+
+NC_003070.9.fa_1: domain 7 of 8, from 5438002 to 5438433: score 246.0, E = 2.7e-74
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      p+t eEv  a++s+ + KAPGpDG+ + +++++++ ++  + +++ +
+  NC_003070. 5438002    PFTLEEVVVAVKSMGRFKAPGPDGFQPVFYQECWEIVG--SSVTRFV 5438046
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    +++++G +P+s  +a +v+IpK  k pe+ +  +RPISL++vl K+ +k
+  NC_003070. 5438047 LDFFESGILPQSTNDALLVLIPKVLK-PEKIT-QFRPISLCNVLFKVITK 5438094
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   +++ Rl++++++   ++ + Q  F+pgR  +dn+  +++++++ ++ k++
+  NC_003070. 5438095 MMVIRLKSVISK---LIGPAQASFIPGRLSIDNIVVVQEAVHSMRRKKGR 5438141
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                       k  +++ LD ekA+D++ +++L ++L++ G+  +++r i+ +  ++
+  NC_003070. 5438142 ----KGWMLLKLDLEKAYDRIRWDFLEETLQAAGLSSGWTRRIMECVANP 5438187
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                     ++  ng +++e++++ rG +QG++LSP+LF l+++ l + +      e
+  NC_003070. 5438188 AMSLLWNG-EKTESFKPARGLRQGDPLSPYLFVLCMERLCQLID----FE 5438232
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   +g  + k i ++ gg++++++++ADD++l+a++       +++    +++
+  NC_003070. 5438233 VGNKnWKPINLsRGGPKISHVCFADDLILFAEAS-----VVQIRVIRRVL 5438277
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                   e+++  +g k++ +K++++  ++            + + ++  + t+ + 
+  NC_003070. 5438278 ERFCLSSGXKVSLEKSKIFFSSN------------VSR-DMERLITVES- 5438313
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                      + ++++  kyLG       + +   +++        +  +rl+++++
+  NC_003070. 5438314 --GIGSTRDLGKYLG--MPILQKRINKETYG----EVLEKVNSRLAGWKS 5438355
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                   +++++++r++l kav+ +i  +  + +   +++s    l+ l+++ r +l
+  NC_003070. 5438356 RTLSLAGRITLMKAVLSSIPVHSMSSI--ILPES---TLESLDKVSRTLL 5438400
+
+                   rrilgr.rtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-
+                   +   g+++        ++        ++++++++++ ++ggl+ +  +  
+  NC_003070. 5438401 WG--GTtD------KRKL-------HLLAWKKICKPKEEGGLGVRGSR   5438433
+
+                   *
+                    
+  NC_003070.     -   -    
+
+NC_003070.9.fa_1: domain 8 of 8, from 5440962 to 5441383: score 245.8, E = 3e-74
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      + te Evr+a++ ++p KAPGpDG t+ +++k++ +++  + L+ l+
+  NC_003070. 5440962    SATEIEVRTALFMIHPEKAPGPDGMTALFIQKAWATIK--TDLLTLV 5441006
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                   n++l+ G f k   +  i++IpK  + p++ +   RPISL++v +K+ +k
+  NC_003070. 5441007 NSFLEDGFFDKRLNTTNICLIPKTER-PTRMT-ELRPISLCNVGYKVISK 5441054
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   i+  Rl+++l+    ++s++Q +F+ gR + dn+l +++  + +++    
+  NC_003070. 5441055 IICQRLKTVLPN---LISETQSAFVEGRLISDNILIAQEMFHGLRTNPS- 5441100
+
+                   ndt.nkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsg
+                      ++k  +a+  D++kA+D+V++ ++   L+k+Gf ++++ wi+ + + 
+  NC_003070. 5441101 --CkGK-FMAIKTDMSKAYDRVEWKFIEVLLRKMGFCDKWISWIMWCITT 5441147
+
+                   RtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggq
+                    +++v +ng +    + ++rG +QG++ SP+LF+l+++ l+ +++    +
+  NC_003070. 5441148 VQYKVLING-QPKXLIIPERGLRQGDPFSPYLFILCTEVLIANIR----K 5441192
+
+                   eegkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdi
+                   +e+   i+Gi+v  + + v+++++ADD + +++++     +++ +  L i
+  NC_003070. 5441193 AEHGKlITGIKVaAPSPPVSHLLFADDSLFFCKAN-----KEQCETILGI 5441237
+
+                   veewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelp
+                   ++++   +g  iN sK+++    +                     ++ + 
+  NC_003070. 5441238 LKQYEAVSGQQINFSKSSIQFGHK--------------------VDESI- 5441266
+
+                   dqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsr
+                      ++ +      +LG+t    +  ++ i +       + +  +r+ +++
+  NC_003070. 5441267 ---KAEIHL----ILGITNLGGMGSKTKIFSF-----VRERLQTRINGWS 5441304
+
+                   wglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrka
+                    + ++++++  + k+v+++  tY  +++  p+t     + ++l +++ k+
+  NC_003070. 5441305 AKFLSKGGKEVMIKSVAVALPTYVMSCFRLPKT-----ITSKLTSAVAKF 5441349
+
+                   lrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-
+                   ++   g          r +       ++++ + +    +ggl+++ +   
+  NC_003070. 5441350 WWSSNG--------DSRGM------HWLAWNKMCSSKAEGGLGFQNVD   5441383
+
+                   *
+                    
+  NC_003070.     -   -    
+
+NC_003070.9.fa_2: domain 1 of 3, from 3510678 to 3511108: score 196.6, E = 2e-59
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      + + e+  +++  +   KAPGpDG+t++++k +++ ++p   + k +
+  NC_003070. 3510678    FSDLEIYNDICH-IGDDKAPGPDGLTARFYKFCWEIVGP--DVIKEV 3510721
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                     ++r+ y  +s  +  i++IpK  + pe+ s +YRPI+L++vl+Ki +k
+  NC_003070. 3510722 KIFFRTSYMKQSINHTNICMIPKITN-PETFS-DYRPIALCNVLYKIISK 3510769
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   +l+ Rl+ hl     i+sd+Q +F+pgR   dn++ + + ++++ ++k+ 
+  NC_003070. 3510770 CLVERLKGHLDA---IVSDSQAAFIPGRLVNDNVMIAHEMMHSLKTRKRV 3510816
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                   +   ++ +av  D++kA+D+V+ n+L  +++ +Gf + +++wi+   ++ 
+  NC_003070. 3510817 S---QSYMAVKTDVSKAYDRVEXNFLETTMRLFGFSETWIKWIMGAVKSV 3510863
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                    ++v vn+  + +t+ + rG++QG++LSP+LF+l++d l++ +     ++
+  NC_003070. 3510864 NYSVLVNSIPH-GTIQPQRGIRQGDPLSPYLFILCVDILSHLIK----NR 3510908
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   + +g+i+Gi++++g + v+++ +ADD + ++ ++      r  q+l d++
+  NC_003070. 3510909 VAEGdIRGIRIgNGVPGVTHLQFADDSLFFCQSN-----VRNCQALKDVF 3510953
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                     +  ++g kiN sK+++   ++   t        ++ + ++++g     
+  NC_003070. 3510954 DVYKYYSGQKINMSKSMITFGSRVHGT--------TQNRLKNILG----- 3510990
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                      +++  +  kyL +      + ++ ++++      + + ++r++ ++ 
+  NC_003070. 3510991 --IQSHG-GGGKYLRLPEQFGRKKRDMFNYI------IERVKKRTSSWSA 3511031
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                   + ++p+++ +++k+v++    Y+ ++++ p+      ++++++ +   ++
+  NC_003070. 3511032 KYLSPAGKEIMLKSVAV----YAMSCFKLPLN-----IVSEIEALLMNFW 3511072
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                   +                   +++  +  ++ le+ r+ +  r+   +   
+  NC_003070. 3511073 WE-----------KNAKKKGNTMDSLEEITILEKGRWFRVXRFGXIQ    3511108
+
+NC_003070.9.fa_1: domain 1 of 8, from 1110297 to 1110725: score 192.3, E = 4e-58
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                        +eeE+ ++++s++++KAPGpDG++ e++++++  ++  + +++ +
+  NC_003070. 1110297    IPSEEEITQVLFSMPRNKAPGPDGFPVEFFIEAWAIVK--SSVVAAI 1110341
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    +++ +G +P+ +    i++IpK  + +++ +  +RP++++ +++K+ ++
+  NC_003070. 1110342 REFFISGNLPRGFNATAITLIPKVTG-ADRLT-QFRPVACCTTIYKVITR 1110389
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   i+ +Rl+ ++ +   ++  +Q GF++gR  ++n+l + +++    +++e+
+  NC_003070. 1110390 IISRRLKLFIDQ---AVQANQVGFIKGRLLCENVLLASELVDNFEADGET 1110436
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                           ++  D++kA+D+V++++L+  Lk+l +p  ++ wi  + s+ 
+  NC_003070. 1110437 -----TRGCLQVDISKAYDNVNWEFLINILKALDLPLVFIHWIWVCISSA 1110481
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                   ++++ +ng ++ + +  ++G++QG++ S  LF l++d l+  l  + +  
+  NC_003070. 1110482 SYSIAFNG-ELIGFFQGKKGIRQGDPMSSHLFVLVMDVLSKSLDLGAL-- 1110528
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                      +++ +   +   ++++++ +ADD++++  g     + + +   L+i+
+  NC_003070. 1110529 ---NgLFNLHPnCLAPIITHLSFADDVLVFSDG-----AASSIAGILTIL 1110570
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                    ++ + +gl iN +Kte +l +g+     +r++  ++ + +++g   lp 
+  NC_003070. 1110571 DDFRQGSGLGINREKTELLLDGGN----FARNRSLADNLGITHGS--LP- 1110613
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                         v+    yLGv l +     ++ ++     +l+ +i +r + ++ 
+  NC_003070. 1110614 ------VR----YLGVPLMS--QKMRRQDYQ----PLVDRINSRFTSWTA 1110647
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                   + ++ ++r+ l+k+v+ + + + ++v+  p       +l++l+ +++++l
+  NC_003070. 1110648 RHLSFAGRLQLLKSVIYSTINFWASVFIFPNQ-----CLQKLEQMCNAFL 1110692
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                   +           gap+  + +     +++  ++ + + ggl+l+++    
+  NC_003070. 1110693 WS----------GAPNSARGA----KISWNIVCSPKEAGGLGLKRLS    1110725
+
+NC_003070.9.fa_1: domain 6 of 8, from 5209227 to 5209658: score 157.5, E = 1.1e-47
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                       ++  E+ +ai+++   KAPGpDG+t++++k  +d ++  + + k +
+  NC_003070. 5209227    EFSDCEIFNAISQIGDDKAPGPDGLTARFYKSYWDIVG--QDVIKEV 5209271
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    + +r+ y  +s  +  +++IpK  +   + s +YRPI+L+++l+Ki +k
+  NC_003070. 5209272 KNYFRTSYMKQSMNHTNLCMIPKITN-LVTLS-DYRPIALCNFLYKIISK 5209319
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   +l+ Rl+ hl     i+sd Q +F+pgR   dn++ + + ++++  +k+ 
+  NC_003070. 5209320 CLVERLKRHLDA---IVSDPQAAFIPGRLVNDNVMIAHEMMHSLKVRKRV 5209366
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                   +   ++ +av  D++k +D+V++n+L  +++ +Gf +++++wi+   ++ 
+  NC_003070. 5209367 S---QSYMAVKTDVSKDYDRVEWNFLETTMRLFGFSEQWINWIMGTVRSV 5209413
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                    ++v +ng  + +t+++ rG++QG++LSP+LF+l+ d l++ ++     +
+  NC_003070. 5209414 NYSVLINGIPH-GTIKPQRGIRQGDPLSPYLFILCADILIHLIN----SR 5209458
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   ++ g+  G ++++g + v+++ + DD + ++ ++      r  q+l d++
+  NC_003070. 5209459 VSHGdNDGLRIgNGVPGVTHLQFTDDSLFFCQAN-----ARNCQALKDVF 5209503
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                     +  ++g kiN  K+++   ++            +   + + + + l+ 
+  NC_003070. 5209504 DIYEYYSGQKINMVKSMITFGSK------------VHGVIQNRLKSILQ- 5209540
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                      ++++             k++++p+    ++k  ++  +l +  r++ 
+  NC_003070. 5209541 --IQSHEG----------GGKYLGLPEQFGQKKKKCTI--TLLKEXRKE- 5209575
+
+                   glslprarrllykavvrPiltYglevwgppatks..........qrgllk
+                      + +++r++y +    + + ++  w    ++s + + ++ + +   ++
+  NC_003070. 5209576 --HR-AGVRNIYHQ----QERKLCXNWXLWQCRSmpcpvsnyrlVSSQKS 5209618
+
+                   rlqriqrkalrrilgrrtqeRagaprttpteallrdaglpplelkrkrgg
+                   +l++  +   r+           ++r  p       +++++l++   +gg
+  NC_003070. 5209619 KLDSXTSGGKRM-----------QKRGIP------XIAWKRLQYSKSEGG 5209651
+
+                   lrlpdrk<-*
+                   l+++d+    
+  NC_003070. 5209652 LGFRDLA    5209658
+
+NC_003070.9.fa_1: domain 5 of 8, from 4563980 to 4564406: score 135.7, E = 4.4e-41
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                        t   + ++ +  ++        ++ ++l+ +    +   l ++  
+  NC_003070. 4563980    NXTSSFLNWSYK--RT--------WP-RWLQCCFLPKL---LEHRRP 4564012
+
+                   nailrlGyfPksWkrariv.....pIpKkgkdpedpsksYRPISLLsvlg
+                    ++ r+  f      ar+++++++++ +k +   +   ++RPISL++v +
+  NC_003070. 4564013 RNCIRGSNFFXNRXNARTMeshksLLDPKERCHKRMK-DFRPISLCNVTY 4564061
+
+                   KilEkilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekal
+                   Ki +kila+Rl+ ++++   ++s++Q +F+pgR +tdn++ + +++++++
+  NC_003070. 4564062 KIISKILARRLKNVMTS---VVSENQAAFIPGRYITDNVFIAHEIMHSLR 4564108
+
+                   eekepndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiks
+                    +k+      + +a+  D++kA+D++++n+L  +L+k Gf  +l++wi+ 
+  NC_003070. 4564109 VQKR---CANSYMAIKTDISKAYDRIEWNFLEGVLRKKGFASQLIKWIMV 4564155
+
+                   flsgRtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlpp
+                   + ++ +f+v +ng s  + ++ +rG +QG++LSP  F+l+ d l+ ++  
+  NC_003070. 4564156 CVRSVSFSVLING-SPYGLFEASRGLRQGDPLSPQSFILCADVLSSMIT- 4564203
+
+                   dggqeegkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqe
+                      q++++  i Gi+v++g + +++ ++ADD + + +++      +  ++
+  NC_003070. 4564204 ---QANRERlIQGIRVsNGRPQISHILFADDSLFFLKAD-----HKNSSN 4564245
+
+                   lLdiveewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlgg
+                   lL i++++  ++g  iN +K+++   ++           +++++++    
+  NC_003070. 4564246 LLAIFKDYETASGQTINLEKSSITFGNR---------VFQHTRDSIMQIL 4564286
+
+                   telpdqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrl
+                   + ++         +  kyLG  l + +  ++           + +   ++
+  NC_003070. 4564287 QIPN-------IGGGGKYLG--LPEQFGRKKKEMLQ----YVKDKVQEKI 4564323
+
+                   irsrwglslprarrllykavvrPiltYglevwgppatksqrgllkrlqri
+                    ++  + ++ +++ +l kav+ ++  Y   ++  p++     l+++++++
+  NC_003070. 4564324 NGWQTKFLSNAGKETLIKAVAYAMPVYSMNCFQFPKE-----LCSEIDSM 4564368
+
+                   qrkalrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpd
+                   + ++++  +          ++ +p      ++++ +   + k ggl++ d
+  NC_003070. 4564369 IARFWWGSTA--------TKNKMP------WVAWRKMATPKKIGGLGFTD 4564404
+
+                   rk<-*
+                   +    
+  NC_003070. 4564405 LH    4564406
+
+NC_003070.9.fa_1: domain 2 of 8, from 2830148 to 2830566: score 120.5, E = 1.6e-36
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapL.elLakl
+                       +   + + +i  l+      +D i+ +++  l ++   L++  +++
+  NC_003070. 2830148    ETKLSIXKICIVMLHF-----LDPIC-RVVNLLYCTCD-LtQTSTCI 2830187
+
+                   fnailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilE
+                   +  +l+      s  +    p++  +   +  s  YRP S+++v++Ki +
+  NC_003070. 2830188 VVFMLT------SYICIHFLPLLSSPT-GHFIS-HYRPLSCCNVIYKIIS 2830229
+
+                   kilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleeke
+                   ki+anRl+ +l++   ++  +Q++F++ R  ++nll ++++++  ++e  
+  NC_003070. 2830230 KIIANRLKMVLPK---FIAGNQTAFVKDRLLIENLLLATELVKDYHKESV 2830276
+
+                   pndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsg
+                   +     +  a+ +D++kAF+sV+++++   L  + fp  +v wi+ + s 
+  NC_003070. 2830277 S-----SRCAIKIDISKAFNSVQWSFIRNILLSMDFPMEFVHWIMLCIST 2830321
+
+                   RtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggq
+                    +f+v vng ++ + + ++rG +QG+ LSP+LF   +d l+  l +   +
+  NC_003070. 2830322 ASFSVQVNG-ELVGFFQSKRGLRQGCSLSPYLFVMSMDVLSKLLDQAASA 2830370
+
+                   eegkgikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   ++     G   + ++  ++++ +ADD+++l  gk      r +    +++
+  NC_003070. 2830371 KKF----GYHSrCKELSLTHLSFADDLMVLSDGK-----VRSIDGIVEVF 2830411
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                     +ak +glki+ +K+++ l +      t+++++  +  +++++  +lp 
+  NC_003070. 2830412 DIFAKFSGLKISMEKSTIYLAGV-----TEDVYHEIQN-RYQFDVGQLP- 2830454
+
+                   qlttlevkkeikyLGv.tldrkltfsphiaevvakanlalgilrrlirsr
+                         v+    yLG++ ++++lt  +    +        +i++++  ++
+  NC_003070. 2830455 ------VR----YLGLpLVTKRLTATDYSPLL-------EHIKKKIGTWT 2830487
+
+                   wglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrka
+                    + +++++r++l ++v+ +i  + l+++  p +     +++++++i++++
+  NC_003070. 2830488 TRYLSYAGRLNLITSVLWSICNFWLAAFRLPRE-----CIREIDKICSAF 2830532
+
+                   lrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-
+                   l+            +p +   + +  ++++  ++++ ++ggl+l+++k  
+  NC_003070. 2830533 LWS-----------GPDL---NPRKTRVCWGDVCKPKQEGGLGLRSLK   2830566
+
+                   *
+                    
+  NC_003070.     -   -    
+
+NC_003070.9.fa_3: domain 1 of 5, from 2657176 to 2657577: score 81.5, E = 9e-25
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      pv+ eE+++a++s+ p+ APG DG ++ ++++ +  +++  ++++ +
+  NC_003070. 2657176    PVSSEEIKDAVFSIDPSSAPGSDGMSGLFFQHYWAIVGD--HVTREV 2657220
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                     ++++G+ P +W    +++IpK    p   s + RPISL+svl+Ki +k
+  NC_003070. 2657221 KMVFQTGVMPTEWNYTHLCLIPKVTH-PVLMS-DLRPISLCSVLYKIVSK 2657268
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   +l++Rl+p+l+    i+sd+Q++F+  R + dn+l + +++++++ +   
+  NC_003070. 2657269 VLVKRLKPLLSL---IVSDTQTAFVAERLISDNILVAHEIVHSLH-TMD- 2657313
+
+                   ndt.nkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsg
+                        k+ +av  D++kA+D+V++ +L   L +lGf+  +v+w + + s+
+  NC_003070. 2657314 --KfAKEYMAVKTDMSKAYDRVEWCYLRALLLALGFHLTWVNWMMMCVSS 2657361
+
+                   RtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggq
+                    t+ v +n+ +  + + ++rG +QG++LSP+LF  +++ l + l+    +
+  NC_003070. 2657362 VTYAVLIND-TPFGMIIPERGLRQGDPLSPFLFVMCTEGLTHLLN----R 2657406
+
+                   eegkg.ikGiqvvggrevklsaYADDtallasgksreelerglqelLdiv
+                   ++  g+++Giq+++         AD   l + g  +  l       +   
+  NC_003070. 2657407 AQLVGsLSGIQFSE---------ADHPSLTFCGXQPFYLXGXXGXGCGSS 2657447
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                   + +++ +    + +K++ vl  +                +    ++    
+  NC_003070. 2657448 KYFGSLWCSYRADHKSSKVLDYF----------------WFXGXDC---- 2657477
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                         +k           +  +f  + + ++  +++++    + +  + 
+  NC_003070. 2657478 ------EK---------SXNSDLFGNFXRRRRXHLSGITXVFQWFQDXDV 2657512
+
+                   glsl...prarrllykavvrPiltYglevwgppatksqrgllkrlqriqr
+                   gl  + ++ + + l+  + ++ +  g  + g+   ++  g++      + 
+  NC_003070. 2657513 GLYQgxtKVQTVQLVFXIFVSGWK-GNYAQGCGNGNA--GFC------HV 2657553
+
+                   kalrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk
+                   ++                                l+   ++ g+ l +r 
+  NC_003070. 2657554 MFQIT--------------------------EDYLHXSGQCYGRFLVERX 2657577
+
+                   <-*
+                      
+  NC_003070.     -     -    
+
+NC_003070.9.fa_1: domain 3 of 8, from 3425484 to 3425907: score 79.1, E = 4.7e-24
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      p +    ++  + +++       ++++++l +     ++     +l+
+  NC_003070. 3425484    PKSSFLSKSXXNTWTR-------WFNSRFLSEILGYCRR--XSFRLV 3425521
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    +++ +G+f     +  i++IpK  + p+  +  +RPISL+++++K+ +k
+  NC_003070. 3425522 KDFFVSGTFDHRLNETNICLIPKTER-PRSMT-EFRPISLCNIVYKVISK 3425569
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   +   Rl+ +l+     +s++Q +F+ gR + dn+l +++  + +++    
+  NC_003070. 3425570 VFSXRLKNILSN---MISETQSAFVAGRLIADNILIAQENFHALRSNVA- 3425615
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                       k  + +  D++kAFD+V  ++L   ++k+ f + +++ ++ +  + 
+  NC_003070. 3425616 --CKKKIMPIKTDMSKAFDRVKGHFLXVLMEKMEFSKTWIDRVMLCIFSV 3425663
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                   +++ ++ng ++ + +++trG + G+++SP+LF+l+++ l+ q       +
+  NC_003070. 3425664 SYKMILNG-TSRGLIKSTRGLRXGDPISPFLFILCTEALIAQFK----SA 3425708
+
+                   egkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLdiv
+                   e  g+i G qv++  + ++++++ADD + +++++     e++ ++ +di+
+  NC_003070. 3425709 EWNGhIQGLQVsKASPSTSHLLFADDSLFFCKAN-----ESQGKAIIDII 3425753
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                    ++++++g  +N + +   l +      tl   +k   p++ ++g     
+  NC_003070. 3425754 RSYGEASGQQLNFENSRXCLAS------TLI--HKLEVPSKEHLG----- 3425790
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                         ++ke + L + + +k+t  +   ++   +++++ i  +++++ +
+  NC_003070. 3425791 -----YPTKEEWALTWDFLKKFTVQKPKSSL---LSKITSIVDSTLGEPN 3425832
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                     ++  ++r l ++ + P     +   ++  +      lk+       + 
+  NC_003070. 3425833 SFPR-VGKRFLXNQXLKP-----FXHTSCRVS----SYLKLYAQNYPVLS 3425872
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                   r+ +gr       +  ++        +glp + +++ r++ rl+      
+  NC_003070. 3425873 RIFCGR-------QEQIVK-----GFIGLPGINYATIRRRFRLSNIG    3425907
+
+NC_003070.9.fa_2: domain 3 of 3, from 4698218 to 4698604: score 61.4, E = 1e-18
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      +vteeE++++++ +++ K+ GpD  t e++k  +d ++   ++ + +
+  NC_003070. 4698218    SVTEEEIKRVLFAMPKDKSLGPDSYTMEFYKSTWDIIG--KEFILAI 4698262
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                    +++  G +Pk+    ++ +IpKk    ++   +YRPIS+++v+ K+  k
+  NC_003070. 4698263 KSFFVKGFLPKAINSTILALIPKKAT-TNEMK-DYRPISCCNVIFKVILK 4698310
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   i+an l+ +l+    ++  +Q +F++ R  ++n+l ++++++  ++e  +
+  NC_003070. 4698311 IIANPLKRVLPN---FVVGNQSAFVQDRLLIENVLLATELVKDYHKESVS 4698357
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                           a+ +D++kAFDsV+++ L ++L++++fp  ++ wi+ + +  
+  NC_003070. 4698358 -----TGCAIKIDISKAFDSVQWSVLRKVLEAMKFPLFFIHWIMLCVTTT 4698402
+
+                   tfrvrvnggstsetrpvtrGVpQGs..vLSPlLFnlyiddllrqlppdgg
+                   +f+v vng ++ + + + rG +Q ++  LS +LF + +d l+  l + + 
+  NC_003070. 4698403 SFSVQVNG-ELVGYFNSVRGLRQRCslSLSLYLFVVSMDVLSKLLDKAV- 4698450
+
+                   qeegkgikGiqvvggrevklsaYADDtallasgksreelerglqelLdiv
+                   + +                          + ++      +r  ++   + 
+  NC_003070. 4698451 GLRK-------------------------FGYH------PR-CKNIGLTH 4698468
+
+                   eewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelpd
+                    ++a+  ++     K      ++              p+++ l   ++  
+  NC_003070. 4698469 LSFADNLKVLSD-GKMXGCXKGF------------SSPTQPYLFXAQPX- 4698504
+
+                   qlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsrw
+                         v+                +p+   ++ k  l +   ++    + 
+  NC_003070. 4698505 ------VS---------------PNPFXSLKKFKTGLSTFLAFCSPXVFF 4698533
+
+                   glslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrkal
+                     ++   r+   k+++r   + +l+  +  ++++       +  +   ++
+  NC_003070. 4698534 FYLK--RRVFQTKTIIRXXYYCLLSNGNTITPQH-------IKHCFLSFC 4698574
+
+                   rrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-*
+                    ++          ++r+         +++++l++k      r++      
+  NC_003070. 4698575 XNVKH--------CYRY---------LSKKKLSKKNFSSYVRISNSX    4698604
+
+NC_003070.9.fa_1: domain 4 of 8, from 4539936 to 4540341: score 16.2, E = 1.6e-12
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                      p++   v     +l        D +    l  + + ++  ++  + +
+  NC_003070. 4539936    PFSTILVIGXGTNLEG------DIWF---LLDWSSLAR--MESYSYI 4539971
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                   +    +    ++   a   +++   +     s                 k
+  NC_003070. 4539972 SYTQDHTSSKNDRSSANQFMLYVVXD----HS-----------------K 4540000
+
+                   ilanRllphleeenkilsdhQfGFrpg..RsTtdnllrlvsviekaleek
+                   il +Rl++hl++   i+s++Q  F+p+    +t +l+    +i + ++e 
+  NC_003070. 4540001 ILTSRLKKHLPD---IVSPSQSTFVPKvwFLITYWLRMRLCIIXEPMTES 4540047
+
+                   epndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksfls
+                    +n      +av   ++kA+D+V++++L + +k+lG++ +++ wi+++ s
+  NC_003070. 4540048 LRN----IYMAVKTEISKAYDCVEWPFLEDIMKALGLNMQWISWIMACVS 4540093
+
+                   gRtfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdgg
+                   + +++v +ng +  + +++ rG++Q ++LSP LF l ++ l++ l+    
+  NC_003070. 4540094 SVSYSVLING-HAFGYIKPCRGIRQDDPLSPSLFVLRTEALIHILN---- 4540138
+
+                   qeegkg.ikGiqv.vggrevklsaYADDtallasgksreelerglqelLd
+                   ++e+ ++++Gi+++  g  v+++++ DDt+++++++     +++ ++l++
+  NC_003070. 4540139 KAERADkLSGIKFrAAGVSVNHLFFDDDTLVMCKAT-----RSECEDLMR 4540183
+
+                   iveewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtel
+                   +++ +++ +g  iN +Kt+v    +             + +++++   + 
+  NC_003070. 4540184 CLSTYGEVSGQMINLTKTAVTFGAN------------IDEDTKDWI-KNR 4540220
+
+                   pdqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirs
+                   +    +  + +++kyL   l  +l++s+   ++     l+ +  +r++ +
+  NC_003070. 4540221 S---GIHLEGGTVKYLC--LPQCLSGSKKELFG----FLKEKLNSRMTCW 4540261
+
+                   rwglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrk
+                   + + ++++++ +l+k+++ +   +  +++  p+      ++k l ++   
+  NC_003070. 4540262 FAKRLSYGGKEILLKSIAMALHVHXMTCFELPKN-----VCKNLTSVMMD 4540306
+
+                   alrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<
+                   ++++ l +        +++        ++g++ l l+   g++ ++d++ 
+  NC_003070. 4540307 FWWNSLQT-------TKKI-------HWIGWQQLTLPKSHGRIEFKDLQ  4540341
+
+                   -*
+                     
+  NC_003070.     -    -    
+
+NC_003070.9.fa_3: domain 5 of 5, from 6398341 to 6398704: score 10.6, E = 2.7e-12
+                   *->pvteeEvraairslkpkKAPGpDGitnellkklpdalapLelLaklf
+                         ++ +      l++        +t++++ ++ +++   ++ + ++
+  NC_003070. 6398341    KMEMDYIYGRGT-LQS-------QFTRTFWXTMNEKIE--NINTFVL 6398377
+
+                   nailrlGyfPksWkrarivpIpKkgkdpedpsksYRPISLLsvlgKilEk
+                   +  l+                    k +  +                   
+  NC_003070. 6398378 TXYLW--------------------K-AXIKV------------------ 6398388
+
+                   ilanRllphleeenkilsdhQfGFrpgRsTtdnllrlvsviekaleekep
+                   ++++Rll  +e    +l                 ++lv+  +k+      
+  NC_003070. 6398389 CIYDRLL--IEN---VL---------------LATELVKDYHKSN--VS- 6398415
+
+                   ndtnkytlavfLDfekAFDsVwHnaLlrkLkklGfppplvrwiksflsgR
+                           a  +D++kAFDs+++++L+ +L +++fp+ ++ wi+ + +  
+  NC_003070. 6398416 -----TRCAMKIDISKAFDSLQWSFLINALSAMNFPGEFIHWISRCITTT 6398460
+
+                   tfrvrvnggstsetrpvtrGVpQGsvLSPlLFnlyiddllrqlppdggqe
+                   +f+v vng ++ + + + rG++QG+ LSP+LF + ++ l+ +l +  g++
+  NC_003070. 6398461 SFSVQVNG-ELAGYFRSARGIRQGCALSPYLFVISMEVLSKMLDQAAGGK 6398509
+
+                   egkgikGiqv.vggre..vklsaYADDtallasgksreelerglqelLdi
+                   +       +++++ ++ +++++++ADD+++l  gk      r +    ++
+  NC_003070. 6398510 RF------GFhPKCKNlgLTHLCFADDLMILTDGK-----VRSVDGIVEV 6398548
+
+                   veewakrvglkiNasKtevvlftghlktrtlrtkrknppppvrlggtelp
+                   +  +akr+gl iN +Kt+  + +              ++ ++ +  + + 
+  NC_003070. 6398549 MNLFAKRSGLQINMEKTTLYTAGV------------SDHNRYMMISRYP- 6398585
+
+                   dqlttlevkkeikyLGvtldrkltfsphiaevvakanlalgilrrlirsr
+                      + l     ++yLG  l    t +   +++    +l  +i  r+  ++
+  NC_003070. 6398586 ---FGLGQL-PVRYLG--LPL-VTKRLTKEDL---SPLFEQIRNRIGTWT 6398625
+
+                   wglslprarrllykavvrPiltYglevwgppatksqrgllkrlqriqrka
+                   ++ ++ ++r++l  +v+ + + +  +++  p +     +lk++++i++++
+  NC_003070. 6398626 SRYLSFAGRLNLISSVLWSTMNFWMSAFRLPSA-----CLKEINSICSAF 6398670
+
+                   lrrilgrrtqeRagaprttpteallrdaglpplelkrkrgglrlpdrk<-
+                   l+            +p++ +   + + +++  ++++ ++ggl+l+++   
+  NC_003070. 6398671 LWS-----------GPELHR---RKAKVSWDDICKPKQEGGLGLRSLT   6398704
+
+                   *
+                    
+  NC_003070.     -   -    
+
+
+Histogram of all scores:
+score    obs    exp  (one = represents 1 sequences)
+-----    ---    ---
+> 514      3      -|===                                                        
+
+
+% Statistical details of theoretical EVD fit:
+              mu =  -273.6762
+          lambda =     0.0975
+chi-sq statistic =     0.0000
+  P(chi-square)  =          0
+
+Total sequences searched: 3
+
+Whole sequence top hits:
+tophits_s report:
+     Total hits:           3
+     Satisfying E cutoff:  3
+     Total memory:         20K
+
+Domain top hits:
+tophits_s report:
+     Total hits:           16
+     Satisfying E cutoff:  16
+     Total memory:         46K
+
