@@ -1,0 +1,27 @@
+##gff-version 3
+I.fa	MGEScan_LTR	mobile_genetic_element	226751	239251	.	-	.	ID=1_I.fa_1;name=cluster_1
+I.fa	MGEScan_LTR	mobile_genetic_element	3847370	3852451	.	+	.	ID=2_I.fa_2;name=cluster_2
+II.fa	MGEScan_LTR	mobile_genetic_element	2121239	2138145	.	+	.	ID=3_II.fa_1;name=cluster_3
+II.fa	MGEScan_LTR	mobile_genetic_element	10932597	10942443	.	-	.	ID=4_II.fa_2;name=cluster_4
+II.fa	MGEScan_LTR	mobile_genetic_element	13244904	13259444	.	+	.	ID=5_II.fa_3;name=cluster_5
+III.fa	MGEScan_LTR	mobile_genetic_element	4042834	4047944	.	-	.	ID=6_III.fa_1;name=cluster_6
+III.fa	MGEScan_LTR	mobile_genetic_element	8852595	8861459	.	+	.	ID=7_III.fa_2;name=cluster_7
+V.fa	MGEScan_LTR	mobile_genetic_element	8825451	8845310	.	+	.	ID=8_V.fa_4;name=cluster_8
+V.fa	MGEScan_LTR	mobile_genetic_element	8867545	8887405	.	+	.	ID=8_V.fa_5;name=cluster_8
+III.fa	MGEScan_LTR	mobile_genetic_element	13229611	13243198	.	-	.	ID=8_III.fa_3;name=cluster_8
+IV.fa	MGEScan_LTR	mobile_genetic_element	912947	921666	.	+	.	ID=9_IV.fa_1;name=cluster_9
+V.fa	MGEScan_LTR	mobile_genetic_element	18118494	18123123	.	+	.	ID=9_V.fa_8;name=cluster_9
+IV.fa	MGEScan_LTR	mobile_genetic_element	16312108	16318660	.	+	.	ID=10_IV.fa_2;name=cluster_10
+V.fa	MGEScan_LTR	mobile_genetic_element	19270044	19282110	.	-	.	ID=11_V.fa_10;name=cluster_11
+V.fa	MGEScan_LTR	mobile_genetic_element	19959041	19966020	.	+	.	ID=12_V.fa_11;name=cluster_12
+V.fa	MGEScan_LTR	mobile_genetic_element	20505404	20514078	.	+	.	ID=13_V.fa_12;name=cluster_13
+V.fa	MGEScan_LTR	mobile_genetic_element	790852	798443	.	-	.	ID=14_V.fa_1;name=cluster_14
+V.fa	MGEScan_LTR	mobile_genetic_element	4300956	4311009	.	-	.	ID=15_V.fa_2;name=cluster_15
+V.fa	MGEScan_LTR	mobile_genetic_element	8476191	8486516	.	-	.	ID=16_V.fa_3;name=cluster_16
+V.fa	MGEScan_LTR	mobile_genetic_element	16993685	17001219	.	-	.	ID=17_V.fa_6;name=cluster_17
+V.fa	MGEScan_LTR	mobile_genetic_element	17146407	17158090	.	-	.	ID=18_V.fa_7;name=cluster_18
+V.fa	MGEScan_LTR	mobile_genetic_element	18435910	18455317	.	+	.	ID=19_V.fa_9;name=cluster_19
+X.fa	MGEScan_LTR	mobile_genetic_element	1766126	1774619	.	-	.	ID=20_X.fa_1;name=cluster_20
+X.fa	MGEScan_LTR	mobile_genetic_element	9191186	9203638	.	+	.	ID=21_X.fa_2;name=cluster_21
+X.fa	MGEScan_LTR	mobile_genetic_element	17248845	17252876	.	-	.	ID=22_X.fa_3;name=cluster_22
+X.fa	MGEScan_LTR	mobile_genetic_element	17644524	17649604	.	-	.	ID=23_X.fa_4;name=cluster_23

@@ -1,0 +1,5 @@
+track name=nonLTR description="MGEScan-nonLTR" color=255,0,0
+3R	MGEScan_nonLTR	mobile_genetic_element	22782935	22789424	.	.	.	ID=3R.fa_22782935
+X	MGEScan_nonLTR	mobile_genetic_element	2985770	2992307	.	.	.	ID=X.fa_2985770
+2R	MGEScan_nonLTR	mobile_genetic_element	19734086	19739390	.	.	.	ID=2R.fa_19734086
+X	MGEScan_nonLTR	mobile_genetic_element	1146896	1153283	.	.	.	ID=X.fa_1146896
