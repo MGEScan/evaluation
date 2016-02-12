@@ -1,3 +1,15 @@
 track name=nonLTR description="MGEScan-nonLTR" color=255,0,0
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	4296281	4301714	.	.	.	ID=NC_003071.7.fa_4296281
+NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	10341398	10347098	.	.	.	ID=NC_003074.8.fa_10341398
 NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	8014724	8019764	.	.	.	ID=NC_003074.8.fa_8014724
+NC_003070.9	MGEScan_nonLTR	mobile_genetic_element	8729261	8735750	.	.	.	ID=NC_003070.9.fa_8729261
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	10876103	10882679	.	.	.	ID=NC_003071.7.fa_10876103
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	5173415	5179457	.	.	.	ID=NC_003071.7.fa_5173415
+NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	13099820	13106399	.	.	.	ID=NC_003074.8.fa_13099820
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	14727530	14733389	.	.	.	ID=NC_003071.7.fa_14727530
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	12927506	12934154	.	.	.	ID=NC_003071.7.fa_12927506
+NC_003071.7	MGEScan_nonLTR	mobile_genetic_element	6471314	6477542	.	.	.	ID=NC_003071.7.fa_6471314
+NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	14444330	14450834	.	.	.	ID=NC_003074.8.fa_14444330
+NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	12538397	12544766	.	.	.	ID=NC_003074.8.fa_12538397
+NC_003074.8	MGEScan_nonLTR	mobile_genetic_element	7962242	7968809	.	.	.	ID=NC_003074.8.fa_7962242
 NC_003076.8	MGEScan_nonLTR	mobile_genetic_element	16620851	16627340	.	.	.	ID=NC_003076.8.fa_16620851
