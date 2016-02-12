@@ -1,7 +1,23 @@
 track name=nonLTR description="MGEScan-nonLTR" color=255,0,0
+3L	MGEScan_nonLTR	mobile_genetic_element	13534352	13540841	.	.	.	ID=3L.fa_13534352
 2R	MGEScan_nonLTR	mobile_genetic_element	19586081	19592096	.	.	.	ID=2R.fa_19586081
 3L	MGEScan_nonLTR	mobile_genetic_element	10472036	10478525	.	.	.	ID=3L.fa_10472036
 3R	MGEScan_nonLTR	mobile_genetic_element	22782935	22789424	.	.	.	ID=3R.fa_22782935
+2L	MGEScan_nonLTR	mobile_genetic_element	20948282	20954873	.	.	.	ID=2L.fa_20948282
+2L	MGEScan_nonLTR	mobile_genetic_element	13544543	13551107	.	.	.	ID=2L.fa_13544543
+2L	MGEScan_nonLTR	mobile_genetic_element	12721871	12728435	.	.	.	ID=2L.fa_12721871
+2R	MGEScan_nonLTR	mobile_genetic_element	13176458	13183022	.	.	.	ID=2R.fa_13176458
+2R	MGEScan_nonLTR	mobile_genetic_element	12551579	12558143	.	.	.	ID=2R.fa_12551579
+2R	MGEScan_nonLTR	mobile_genetic_element	3460931	3467468	.	.	.	ID=2R.fa_3460931
+2R	MGEScan_nonLTR	mobile_genetic_element	21947	28538	.	.	.	ID=2R.fa_21947
+3L	MGEScan_nonLTR	mobile_genetic_element	17814629	17821166	.	.	.	ID=3L.fa_17814629
+3L	MGEScan_nonLTR	mobile_genetic_element	11287448	11294048	.	.	.	ID=3L.fa_11287448
+3L	MGEScan_nonLTR	mobile_genetic_element	6817424	6823961	.	.	.	ID=3L.fa_6817424
+3L	MGEScan_nonLTR	mobile_genetic_element	5025368	5031905	.	.	.	ID=3L.fa_5025368
+3R	MGEScan_nonLTR	mobile_genetic_element	15020195	15026759	.	.	.	ID=3R.fa_15020195
+3R	MGEScan_nonLTR	mobile_genetic_element	2337860	2344460	.	.	.	ID=3R.fa_2337860
+3R	MGEScan_nonLTR	mobile_genetic_element	580433	587000	.	.	.	ID=3R.fa_580433
+X	MGEScan_nonLTR	mobile_genetic_element	1118597	1125134	.	.	.	ID=X.fa_1118597
 2L	MGEScan_nonLTR	mobile_genetic_element	17304185	17310785	.	.	.	ID=2L.fa_17304185
 2L	MGEScan_nonLTR	mobile_genetic_element	1353611	1360211	.	.	.	ID=2L.fa_1353611
 2L	MGEScan_nonLTR	mobile_genetic_element	836633	843122	.	.	.	ID=2L.fa_836633
@@ -14,7 +30,13 @@ track name=nonLTR description="MGEScan-nonLTR" color=255,0,0
 3R	MGEScan_nonLTR	mobile_genetic_element	6747191	6753728	.	.	.	ID=3R.fa_6747191
 X	MGEScan_nonLTR	mobile_genetic_element	14006690	14013305	.	.	.	ID=X.fa_14006690
 X	MGEScan_nonLTR	mobile_genetic_element	2985770	2992307	.	.	.	ID=X.fa_2985770
+2L	MGEScan_nonLTR	mobile_genetic_element	7021736	7025960	.	.	.	ID=2L.fa_7021736
+3L	MGEScan_nonLTR	mobile_genetic_element	23037623	23043710	.	.	.	ID=3L.fa_23037623
 2R	MGEScan_nonLTR	mobile_genetic_element	20210933	20216501	.	.	.	ID=2R.fa_20210933
 2R	MGEScan_nonLTR	mobile_genetic_element	19734086	19739390	.	.	.	ID=2R.fa_19734086
+3L	MGEScan_nonLTR	mobile_genetic_element	22680302	22686875	.	.	.	ID=3L.fa_22680302
+3L	MGEScan_nonLTR	mobile_genetic_element	8751581	8758148	.	.	.	ID=3L.fa_8751581
+chr4	MGEScan_nonLTR	mobile_genetic_element	98717	105284	.	.	.	ID=4.fa_98717
+X	MGEScan_nonLTR	mobile_genetic_element	5221787	5228354	.	.	.	ID=X.fa_5221787
 X	MGEScan_nonLTR	mobile_genetic_element	20656211	20662538	.	.	.	ID=X.fa_20656211
 X	MGEScan_nonLTR	mobile_genetic_element	1146896	1153283	.	.	.	ID=X.fa_1146896
