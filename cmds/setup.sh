@@ -27,6 +27,7 @@ git clone https://github.com/MGEScan/evaluation.git
 cd evaluation
 git config --global user.name "Hyungro Lee"
 git config --global user.email hroe.lee@gmail.com
+git checkout accuracy-evaluation
 
 
 
