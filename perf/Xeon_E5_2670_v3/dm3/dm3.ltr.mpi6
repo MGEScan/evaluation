@@ -1,0 +1,14 @@
+
+    4154829.934264 task-clock (msec)         #    3.843 CPUs utilized          
+        13,096,279 context-switches          #    0.003 M/sec                  
+         4,269,963 cpu-migrations            #    0.001 M/sec                  
+       519,281,913 page-faults               #    0.125 M/sec                  
+11,402,126,183,503 cycles                    #    2.744 GHz                    
+   <not supported> stalled-cycles-frontend 
+   <not supported> stalled-cycles-backend  
+14,461,249,417,002 instructions              #    1.27  insns per cycle        
+ 2,859,355,665,036 branches                  #  688.200 M/sec                  
+    45,317,980,994 branch-misses             #    1.58% of all branches        
+
+    1081.053638357 seconds time elapsed
+
