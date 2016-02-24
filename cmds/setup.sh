@@ -23,6 +23,13 @@ cd a_thaliana
 wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF_000001735.3_TAIR10/GCF_000001735.3_TAIR10_genomic.fna.gz
 gzip -d GCF_000001735.3_TAIR10_genomic.fna.gz
 
+git clone https://github.com/MGEScan/evaluation.git
+cd evaluation
+git config --global user.name "Hyungro Lee"
+git config --global user.email hroe.lee@gmail.com
+
+
+
 sudo apt-get install hmmer2 -y
 sudo apt-get install openmpi-bin -y
 sudo apt-get install libopenmpi-dev -y
